@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   name_hash.collect do |name, age|
-    age <=> age
-    return name[3]
+    age <=> 
+    return name
   end
 end
