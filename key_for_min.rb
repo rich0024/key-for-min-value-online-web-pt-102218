@@ -4,6 +4,6 @@
 def key_for_min_value(name_hash)
   name_hash.collect do |name, age|
     if age <=> age
-      return name
+      return name(1)
   end
 end
